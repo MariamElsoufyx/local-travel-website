@@ -61,6 +61,12 @@
   --font-body: "Oswald", ui-sans-serif, system-ui, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* offset for the sticky navbar when jumping to #anchors */
+}
+
 body {
   background-color: var(--color-exact-color-cream);
+  color: var(--color-exact-color-navy);
 }
